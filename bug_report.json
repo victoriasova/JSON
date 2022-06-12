@@ -1,12 +1,17 @@
-ID:
-Summary:
-Environment:
-Priority:
-Severity:
-Source URL:
+"ID": "01",
+"Summary": "The button Log in is not active",
+"Environment": "Firefox 101.0 (64 бита)",
+"Priority": "high",
+"Severity": "major",
+"Source URL": "https://www.linkedin.com",
 
-STR:
-Expected Result:
-Actual Result:
+"STR":[
+  "1. Open URL https://www.linkedin.com",
+  "2. Enter valid email and password",
+  "3. Click th button Log in"
+  ]
 
-Visual proof:
+"Expected Result": "The button is active",
+"Actual Result": "The button Log in is not active",
+
+"Visual proof": 
